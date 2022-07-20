@@ -21,10 +21,12 @@ const finalResponse = (secret, req,res) =>{
             }))
         }
         const xml = builder.buildObject(_secret);
-        res.status(200).send(xml).setHeader('Content-Type', 'application/xml');        
+        res.setHeader('Content-Type', 'application/xml');
+        res.status(200).send(xml);
     }
     else if (req.accepts('json')){
-        res.status(200).send(secret).setHeader('Content-Type', 'application/json');
+        res.setHeader('Content-Type', 'application/json');
+        res.status(200).send(secret);
     }
 }
 const unExpired= (secret) => {
@@ -38,6 +40,7 @@ const unExpired= (secret) => {
 }
 
 router.get('/my-secrets', auth,async (req, res) => {
+  
     if(!req.user){
         return res.sendStatus(401);
     }
@@ -52,7 +55,7 @@ router.post('/my-secrets/add', auth,async (req, res) => {
     if(!title || !text){
         return res.status(401).send({message:"Title and text are required!"});
     }
-    const newSecret= await Secret.create({title: title, text: text});
+    const newSecret= await Secret.create({UserId:req.user.id,title: title, text: text});
     finalResponse(newSecret,req,res);
 });
 router.put('/my-secrets/share/:id', auth,async (req, res) => {
