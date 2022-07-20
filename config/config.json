@@ -4,7 +4,11 @@
     "dialect": "sqlite"
   },
   "production": {
-    "storage": "database/database_prod.sqlite",
-    "dialect": "sqlite"
+    "username": "secretserver",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
   }
 }
+

@@ -21,10 +21,10 @@ const finalResponse = (secret, req,res) =>{
             }))
         }
         const xml = builder.buildObject(_secret);
-        res.setHeader('Content-Type', 'application/xml').status(200).send(xml);        
+        res.status(200).send(xml).setHeader('Content-Type', 'application/xml');        
     }
     else if (req.accepts('json')){
-        res.setHeader('Content-Type', 'application/json').status(200).send(secret);
+        res.status(200).send(secret).setHeader('Content-Type', 'application/json');
     }
 }
 const unExpired= (secret) => {
@@ -49,6 +49,9 @@ router.post('/my-secrets/add', auth,async (req, res) => {
     if(!req.user){
         return res.sendStatus(401);
     }
+    if(!title || !text){
+        return res.status(401).send({message:"Title and text are required!"});
+    }
     const newSecret= await Secret.create({title: title, text: text});
     finalResponse(newSecret,req,res);
 });
@@ -57,7 +60,6 @@ router.put('/my-secrets/share/:id', auth,async (req, res) => {
     if(isNaN(parseInt(id))){
         return res.sendStatus(400);
     }
-    console.log(req);
     const {viewLimit, ttl} = req.body;
     if(!req.user){
         return res.sendStatus(401);
@@ -66,7 +68,6 @@ router.put('/my-secrets/share/:id', auth,async (req, res) => {
     if(!secret){
         return res.sendStatus(404);
     }
-    console.log(viewLimit);
     if(!viewLimit || viewLimit===0){
         return res.status(400).send({message:"Viewlimit is required, and must be greater than zero!"});
     }
