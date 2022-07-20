@@ -1,6 +1,6 @@
 # secret_server
 
-https://mercury-silver-advantage.glitch.me/
+http://picturesque-zealous-gymnast.glitch.me/
 
 Routs:
   - /register 
