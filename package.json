@@ -10,6 +10,7 @@
     "zip": "node zip.js",
     "tester": "npm run test",
     "start": "node server.js",
+    "prettier": "npx prettier --write \"**/*.{js,json}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Torma Levente",
@@ -27,6 +28,7 @@
     "sqlite3": "^5.0.9"
   },
   "devDependencies": {
+    "prettier": "^2.6.2",
     "nodemon": "^2.0.19",
     "sequelize-cli": "^6.4.1"
   }

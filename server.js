@@ -6,12 +6,8 @@ const app = express();
 
 app.use(express.json());
 
-
 //Routers
 
-
-
 //Router bindings
-
 
 //Srart App
