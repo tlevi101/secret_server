@@ -138,3 +138,269 @@ TypeError: secrets.map is not a function
     at async Function.findOne (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\model.js:1228:12)
     at async O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:66:20
 
+[2022. 07. 20. 17:59:34]
+Name: ReferenceError
+Message: diffDayssecret is not defined
+Stack:
+ReferenceError: diffDayssecret is not defined
+    at unExpired (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:28:17)
+    at O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:84:9
+
+[2022. 07. 20. 18:05:06]
+Name: TypeError
+Message: Cannot read properties of null (reading 'title')
+Stack:
+TypeError: Cannot read properties of null (reading 'title')
+    at Function.afterFind (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\models\secret.js:57:50)
+    at Function.runHooks (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\hooks.js:94:18)
+    at Function.findAll (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\model.js:1136:18)
+    at async Function.findOne (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\model.js:1228:12)
+    at async O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:81:20
+
+[2022. 07. 20. 18:05:35]
+Name: TypeError
+Message: Cannot read properties of null (reading 'title')
+Stack:
+TypeError: Cannot read properties of null (reading 'title')
+    at Function.afterFind (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\models\secret.js:57:50)
+    at Function.runHooks (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\hooks.js:94:18)
+    at Function.findAll (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\model.js:1136:18)
+    at async Function.findOne (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\model.js:1228:12)
+    at async O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:81:20
+
+[2022. 07. 20. 18:06:09]
+Name: TypeError
+Message: Cannot read properties of null (reading 'title')
+Stack:
+TypeError: Cannot read properties of null (reading 'title')
+    at Function.afterFind (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\models\secret.js:57:50)
+    at Function.runHooks (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\hooks.js:94:18)
+    at Function.findAll (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\model.js:1136:18)
+    at async Function.findOne (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\model.js:1228:12)
+    at async O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:78:20
+
+[2022. 07. 20. 18:06:44]
+Name: TypeError
+Message: Cannot read properties of null (reading 'title')
+Stack:
+TypeError: Cannot read properties of null (reading 'title')
+    at Function.afterFind (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\models\secret.js:58:50)
+    at Function.runHooks (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\hooks.js:94:18)
+    at Function.findAll (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\model.js:1136:18)
+    at async Function.findOne (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\model.js:1228:12)
+    at async O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:78:20
+
+[2022. 07. 20. 18:06:56]
+Name: TypeError
+Message: Cannot read properties of null (reading 'title')
+Stack:
+TypeError: Cannot read properties of null (reading 'title')
+    at Function.afterFind (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\models\secret.js:58:50)
+    at Function.runHooks (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\hooks.js:94:18)
+    at Function.findAll (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\model.js:1136:18)
+    at async Function.findOne (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\model.js:1228:12)
+    at async O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:78:20
+
+[2022. 07. 20. 18:07:04]
+Name: TypeError
+Message: Cannot read properties of null (reading 'title')
+Stack:
+TypeError: Cannot read properties of null (reading 'title')
+    at Function.afterFind (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\models\secret.js:58:50)
+    at Function.runHooks (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\hooks.js:94:18)
+    at Function.findAll (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\model.js:1136:18)
+    at async Function.findOne (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\model.js:1228:12)
+    at async O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:78:20
+
+[2022. 07. 20. 18:07:35]
+Name: TypeError
+Message: Cannot read properties of null (reading 'title')
+Stack:
+TypeError: Cannot read properties of null (reading 'title')
+    at Function.afterFind (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\models\secret.js:58:50)
+    at Function.runHooks (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\hooks.js:94:18)
+    at Function.findAll (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\model.js:1136:18)
+    at async Function.findOne (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\model.js:1228:12)
+    at async O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:79:20
+
+[2022. 07. 20. 18:07:38]
+Name: TypeError
+Message: Cannot read properties of null (reading 'title')
+Stack:
+TypeError: Cannot read properties of null (reading 'title')
+    at Function.afterFind (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\models\secret.js:58:50)
+    at Function.runHooks (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\hooks.js:94:18)
+    at Function.findAll (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\model.js:1136:18)
+    at async Function.findOne (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\model.js:1228:12)
+    at async O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:79:20
+
+[2022. 07. 20. 18:07:38]
+Name: TypeError
+Message: Cannot read properties of null (reading 'title')
+Stack:
+TypeError: Cannot read properties of null (reading 'title')
+    at Function.afterFind (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\models\secret.js:58:50)
+    at Function.runHooks (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\hooks.js:94:18)
+    at Function.findAll (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\model.js:1136:18)
+    at async Function.findOne (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\model.js:1228:12)
+    at async O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:79:20
+
+[2022. 07. 20. 18:08:57]
+Name: TypeError
+Message: Cannot read properties of null (reading 'title')
+Stack:
+TypeError: Cannot read properties of null (reading 'title')
+    at Function.afterFind (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\models\secret.js:58:50)
+    at Function.runHooks (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\hooks.js:94:18)
+    at Function.findAll (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\model.js:1136:18)
+    at async Function.findOne (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\sequelize\lib\model.js:1228:12)
+    at async O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:79:20
+
+[2022. 07. 20. 18:33:29]
+Name: TypeError
+Message: res.accepts is not a function
+Stack:
+TypeError: res.accepts is not a function
+    at finalResponse (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:14:13)
+    at O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:85:5
+
+[2022. 07. 20. 18:41:36]
+Name: TypeError
+Message: name.indexOf is not a function
+Stack:
+TypeError: name.indexOf is not a function
+    at XMLElement.module.exports.XMLNode.element (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:225:85)
+    at XMLElement.module.exports.XMLNode.element (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:188:26)
+    at XMLElement.module.exports.XMLNode.text (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:315:14)
+    at XMLElement.module.exports.XMLNode.txt (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:539:19)
+    at O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xml2js\lib\builder.js:57:23
+    at O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xml2js\lib\builder.js:65:27
+    at Builder.exports.Builder.Builder.buildObject (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xml2js\lib\builder.js:120:14)
+    at finalResponse (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:17:29)
+    at O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:39:5
+
+[2022. 07. 20. 18:43:08]
+Name: ReferenceError
+Message: xml is not defined
+Stack:
+ReferenceError: xml is not defined
+    at finalResponse (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:15:76)
+    at O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:39:5
+
+[2022. 07. 20. 18:45:26]
+Name: TypeError
+Message: name.indexOf is not a function
+Stack:
+TypeError: name.indexOf is not a function
+    at XMLElement.module.exports.XMLNode.element (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:225:85)
+    at XMLElement.module.exports.XMLNode.element (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:188:26)
+    at XMLElement.module.exports.XMLNode.text (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:315:14)
+    at XMLElement.module.exports.XMLNode.txt (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:539:19)
+    at O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xml2js\lib\builder.js:57:23
+    at O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xml2js\lib\builder.js:65:27
+    at Builder.exports.Builder.Builder.buildObject (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xml2js\lib\builder.js:120:14)
+    at finalResponse (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:17:29)
+    at O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:39:5
+
+[2022. 07. 20. 18:45:48]
+Name: TypeError
+Message: name.indexOf is not a function
+Stack:
+TypeError: name.indexOf is not a function
+    at XMLElement.module.exports.XMLNode.element (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:225:85)
+    at XMLElement.module.exports.XMLNode.element (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:188:26)
+    at XMLElement.module.exports.XMLNode.text (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:315:14)
+    at XMLElement.module.exports.XMLNode.txt (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:539:19)
+    at O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xml2js\lib\builder.js:57:23
+    at O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xml2js\lib\builder.js:65:27
+    at Builder.exports.Builder.Builder.buildObject (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xml2js\lib\builder.js:120:14)
+    at finalResponse (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:17:29)
+    at O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:39:5
+
+[2022. 07. 20. 18:46:19]
+Name: TypeError
+Message: name.indexOf is not a function
+Stack:
+TypeError: name.indexOf is not a function
+    at XMLElement.module.exports.XMLNode.element (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:225:85)
+    at XMLElement.module.exports.XMLNode.element (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:188:26)
+    at XMLElement.module.exports.XMLNode.text (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:315:14)
+    at XMLElement.module.exports.XMLNode.txt (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:539:19)
+    at O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xml2js\lib\builder.js:57:23
+    at O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xml2js\lib\builder.js:65:27
+    at Builder.exports.Builder.Builder.buildObject (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xml2js\lib\builder.js:120:14)
+    at finalResponse (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:17:29)
+    at O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:39:5
+
+[2022. 07. 20. 18:48:00]
+Name: Error
+Message: Invalid character in name
+Stack:
+Error: Invalid character in name
+    at XMLStringifier.module.exports.XMLStringifier.assertLegalName (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLStringifier.js:213:15)
+    at XMLStringifier.assertLegalName (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLStringifier.js:4:59)
+    at XMLStringifier.module.exports.XMLStringifier.name (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLStringifier.js:29:19)
+    at new XMLElement (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLElement.js:26:34)
+    at XMLElement.module.exports.XMLNode.node (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:304:15)
+    at XMLElement.module.exports.XMLNode.element (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:236:28)
+    at XMLElement.module.exports.XMLNode.ele (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:531:19)
+    at O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xml2js\lib\builder.js:100:42
+    at Builder.exports.Builder.Builder.buildObject (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xml2js\lib\builder.js:120:14)
+    at finalResponse (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:17:29)
+
+[2022. 07. 20. 18:48:22]
+Name: Error
+Message: Invalid character in name
+Stack:
+Error: Invalid character in name
+    at XMLStringifier.module.exports.XMLStringifier.assertLegalName (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLStringifier.js:213:15)
+    at XMLStringifier.assertLegalName (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLStringifier.js:4:59)
+    at XMLStringifier.module.exports.XMLStringifier.name (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLStringifier.js:29:19)
+    at new XMLElement (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLElement.js:26:34)
+    at XMLElement.module.exports.XMLNode.node (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:304:15)
+    at XMLElement.module.exports.XMLNode.element (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:236:28)
+    at XMLElement.module.exports.XMLNode.ele (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:531:19)
+    at O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xml2js\lib\builder.js:100:42
+    at Builder.exports.Builder.Builder.buildObject (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xml2js\lib\builder.js:120:14)
+    at finalResponse (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:17:29)
+
+[2022. 07. 20. 18:48:45]
+Name: Error
+Message: Invalid character in name
+Stack:
+Error: Invalid character in name
+    at XMLStringifier.module.exports.XMLStringifier.assertLegalName (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLStringifier.js:213:15)
+    at XMLStringifier.assertLegalName (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLStringifier.js:4:59)
+    at XMLStringifier.module.exports.XMLStringifier.name (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLStringifier.js:29:19)
+    at new XMLElement (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLElement.js:26:34)
+    at XMLElement.module.exports.XMLNode.node (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:304:15)
+    at XMLElement.module.exports.XMLNode.element (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:236:28)
+    at XMLElement.module.exports.XMLNode.ele (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:531:19)
+    at O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xml2js\lib\builder.js:100:42
+    at Builder.exports.Builder.Builder.buildObject (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xml2js\lib\builder.js:120:14)
+    at finalResponse (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:17:29)
+
+[2022. 07. 20. 18:49:36]
+Name: Error
+Message: Invalid character in name
+Stack:
+Error: Invalid character in name
+    at XMLStringifier.module.exports.XMLStringifier.assertLegalName (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLStringifier.js:213:15)
+    at XMLStringifier.assertLegalName (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLStringifier.js:4:59)
+    at XMLStringifier.module.exports.XMLStringifier.name (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLStringifier.js:29:19)
+    at new XMLElement (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLElement.js:26:34)
+    at XMLElement.module.exports.XMLNode.node (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:304:15)
+    at XMLElement.module.exports.XMLNode.element (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:236:28)
+    at XMLElement.module.exports.XMLNode.ele (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xmlbuilder\lib\XMLNode.js:531:19)
+    at O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xml2js\lib\builder.js:100:42
+    at Builder.exports.Builder.Builder.buildObject (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\node_modules\xml2js\lib\builder.js:120:14)
+    at finalResponse (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:17:29)
+
+[2022. 07. 20. 19:01:26]
+Name: TypeError
+Message: secret.map is not a function
+Stack:
+TypeError: secret.map is not a function
+    at finalResponse (O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:16:49)
+    at O:\OneDrive - Eotvos Lorand Tudomanyegyetem\Munka\Node\secret_server\routers\secret.js:70:5
+

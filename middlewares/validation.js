@@ -8,6 +8,9 @@ const sequelizeValidation= async (err, req, res, next) => {
     if(err instanceof Sequelize.ValidationError) {
         return res.status(400).send({message:err.message});
     }
+    if(err instanceof Sequelize) {
+        return res.status(400).send({message:err.message});
+    }
     next(err, req, res);
 }
 
