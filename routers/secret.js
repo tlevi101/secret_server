@@ -71,6 +71,9 @@ router.put('/my-secrets/share/:id', auth,async (req, res) => {
     if(!secret){
         return res.sendStatus(404);
     }
+    if(secret.UserId!==req.user.id){
+        return res.sendStatus(403);
+    }
     if(!viewLimit || viewLimit===0){
         return res.status(400).send({message:"Viewlimit is required, and must be greater than zero!"});
     }
