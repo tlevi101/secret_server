@@ -11,7 +11,7 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       this.hasMany(models.Secret);
-      // define association here
+      // define association here 
     }
     comparePassword(password) {
       return bcrypt.compareSync(password, this.password);
