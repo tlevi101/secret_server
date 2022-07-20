@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "npx nodemon server.js",
     "db": "npx sequelize db:migrate:undo:all && npx sequelize db:migrate && npx sequelize db:seed:all",
+    "db_production": "npx sequelize db:migrate --env production",
     "zip": "node zip.js",
     "tester": "npm run test",
     "start": "node server.js",

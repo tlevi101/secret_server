@@ -4,7 +4,7 @@
     "dialect": "sqlite"
   },
   "production": {
-    "storage": "database/database.sqlite",
+    "storage": "database/database_prod.sqlite",
     "dialect": "sqlite"
   }
 }
