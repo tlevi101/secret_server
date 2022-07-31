@@ -11,6 +11,7 @@ const xml2js = require('xml2js');
 
 const router = express.Router();
 const finalResponse = (secret, req,res) =>{
+
     if (req.accepts('application/xml')){
         const builder = new xml2js.Builder();
         let _secret = secret;
@@ -32,9 +33,7 @@ const finalResponse = (secret, req,res) =>{
 const unExpired= (secret) => {
     const now =Date.now();
     if(secret.ttl!==null){
-        const diffTime=Math.abs(secret.ttl-now);
-        const diffDays = Math.ceil(diffTime/(1000*60*60*24));
-        return secret.viewCounter!==secret.viewLimit &&  diffDays!==1;
+        return secret.viewCounter!==secret.viewLimit && secret.ttl>=now;
     }
     return secret.viewCounter!==secret.viewLimit;
 }
@@ -78,7 +77,7 @@ router.put('/my-secrets/share/:id', auth,async (req, res) => {
         return res.status(400).send({message:"Viewlimit is required, and must be greater than zero!"});
     }
     const uuid = uuidv4();
-    const url = `http://${req.headers.host}/secrets/${uuid}`;
+    const url = uuid;
     const sharedSecret=await secret.update({viewLimit: viewLimit, ttl: ttl, url: url});
     finalResponse({url:sharedSecret.url},req,res);
     

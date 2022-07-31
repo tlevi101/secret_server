@@ -10,14 +10,14 @@ const { User, Secret } = models;
 module.exports = {
   async up(queryInterface, Sequelize) {
     try {
-      const userCount = faker.datatype.number({ min: 10, max: 20 });
+      const userCount = faker.datatype.number({ min: 10, max: 15 });
       for (let i = 0; i < userCount; i++) {
         const user = await User.create({
           username: "user"+(i+1),
           email: "user"+(i+1)+"@example.com",
           password: "password",
         });     
-        const secretCount = faker.datatype.number({ min:0, max:3 });
+        const secretCount = faker.datatype.number({ min:3, max:10 });
         for (let j = 0; j < secretCount; j++){
           const title= faker.lorem.words(faker.datatype.number({min: 2, max:6}));
           const share = faker.datatype.boolean();
@@ -26,7 +26,7 @@ module.exports = {
             text: faker.lorem.text(),
             UserId:user.id,
             ttl: share ? faker.date.soon(30) : null,
-            url: share ? `http://localhost:4000/secrets/${faker.datatype.uuid()}`: null,
+            url: share ? faker.datatype.uuid(): null,
             viewLimit: share ? faker.datatype.number({min: 7, max:15}):null,
           });
         }

@@ -4,7 +4,26 @@ const models = require("../models");
 const {User} = models;
 
 const router = express.Router();
+const finalResponse = (data, req,res) =>{
 
+    if (req.accepts('application/xml')){
+        const builder = new xml2js.Builder();
+        let _data = data;
+        if(Array.isArray(data)){
+            _data = (secret.map((x)=>{
+                const secret={secret:x.dataValues};
+                return secret;
+            }))
+        }
+        const xml = builder.buildObject(_data);
+        res.setHeader('Content-Type', 'application/xml');
+        return res.status(200).send(xml);
+    }
+    else if (req.accepts('json')){
+        res.setHeader('Content-Type', 'application/json');
+        return res.status(200).send(data);
+    }
+}
 router.post('/login', async (req, res) => {
     const {email, password} = req.body;
     if(!email||!password) {
@@ -16,7 +35,7 @@ router.post('/login', async (req, res) => {
     }
     if(user.comparePassword(password)){
         const token=jsonwebtoken.sign(user.toJSON(), "SecretServer",{algorithm:'HS256'});
-        return res.send({token});
+        return finalResponse(finalResponse({token},req,res));
     }
     return res.status(401).send({message:"Wrong password"});
 });
@@ -32,7 +51,7 @@ router.post('/register', async (req, res) => {
     const user = await User.create({username,email,password});
     //login
     const token = jsonwebtoken.sign(user.toJSON(),"SecretServer",{algorithm:'HS256'});
-    return res.status(201).send({token});
+    return finalResponse(token,req,res);
 
 });
 

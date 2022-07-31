@@ -50,17 +50,17 @@ module.exports = (sequelize, DataTypes) => {
           if(secret!==null){
             if(Array.isArray(secret)){
               secret.map((_secret)=>{
-                _secret.title = cryptr.decrypt(_secret.title),
-                _secret.text = cryptr.decrypt(_secret.text)
+                _secret.title = cryptr.decrypt(_secret.title);
+                _secret.text = cryptr.decrypt(_secret.text);
               });
             }
             else{
-              secret.title = cryptr.decrypt(secret.title),
-              secret.text = cryptr.decrypt(secret.text)
+              secret.title = cryptr.decrypt(secret.title);
+              secret.text = cryptr.decrypt(secret.text);
+              secret.url = cryptr.decrypt(secret.url);
             }
           }
         },
-        // be
       },
     }
   );
