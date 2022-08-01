@@ -1,7 +1,7 @@
 
 # Secret_server
 Server url:
-https://octagonal-chip-click.glitch.me
+https://dent-phrygian-zebu.glitch.me/
 
 This server has a front-end
 https://github.com/tlevi101/secrets
