@@ -1,4 +1,12 @@
-# secret_server
+<style>
+  .orange{
+    color:DarkOrange;
+  }
+  .blue{
+    color:DarkBlue;
+  }
+</style>
+#<div class="orange">Secret_server</div>
 Server url:
 https://octagonal-chip-click.glitch.me
 
@@ -8,12 +16,12 @@ which available at
 https://tlevi101secrets.web.app/
 
 Routs:
-  - /register (POST)
+#### /register (POST)
     - request body:
       - username:
-        -required, unique
+        - required, unique
       - email:
-        -required, unique, email format
+        - required, unique, email format
       - password:
         - required
       - passwordAgain:
@@ -29,7 +37,7 @@ Routs:
       - code 409:
         - Email or username is already registered
 
-  - /login (POST)
+####   /login (POST)
     - request body:
       - email:
         - required, email format
@@ -46,7 +54,7 @@ Routs:
       - code 401:
         - wrong password
 
-  - /my-secrets (GET)
+#### /my-secrets (GET)
     - Authorization header required
       - Header-type: Authorization
       - Value: Bearer ${yourWebToken}
@@ -60,7 +68,7 @@ Routs:
       - code 401:
         - Unauthorized error
         
-  - /my-secrets/add (POST)
+####   /my-secrets/add (POST)
     - request body:
       - Authorization header required
         - Header-type: Authorization
@@ -75,7 +83,7 @@ Routs:
       - code 400:
         - title or text is missing
   
-  - /my-secrets/share/:secretid (PUT)
+####  /my-secrets/share/:secretid (PUT)
     - request params:
       - secretid
     - request body:
@@ -95,8 +103,7 @@ Routs:
         - The secret does not belongs to the authorized user
       - code 404:
         - No such secret      
-
-  - /secrets/:secretuuid (GET)
+####  /secrets/:secretuuid (GET)
     - request params:
       - secretuuid
     - respond:
