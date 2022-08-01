@@ -52,7 +52,7 @@ router.post('/my-secrets/add', auth,async (req, res) => {
         return res.sendStatus(401);
     }
     if(!title || !text){
-        return res.status(401).send({message:"Title and text are required!"});
+        return res.status(400).send({message:"Title and text are required!"});
     }
     const newSecret= await Secret.create({UserId:req.user.id,title: title, text: text});
     finalResponse(newSecret,req,res);

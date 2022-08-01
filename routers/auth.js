@@ -4,6 +4,7 @@ const models = require("../models");
 const {User} = models;
 const xml2js = require('xml2js');
 const router = express.Router();
+
 const finalResponse = (data, req,res) =>{
 
     if (req.accepts('application/xml')){
@@ -48,10 +49,18 @@ router.post('/register', async (req, res) => {
     if(password!==passwordAgain) {
         return res.status(400).send({message: "Password and passwordAgain does not match!"});
     }
+    let _user=await User.findOne({where: {username}});
+    if(_user!==null) {
+        return res.status(409).send({message: "Username already exists"});
+    }
+    _user=await User.findOne({where: {email}});
+    if(_user!==null) {
+        return res.status(409).send({message: "Email already exists"});
+    }
     const user = await User.create({username,email,password});
-    //login
     const token = jsonwebtoken.sign(user.toJSON(),"SecretServer",{algorithm:'HS256'});  
     return finalResponse({token},req,res);
+    //login
   
 
 });
