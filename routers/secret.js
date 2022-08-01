@@ -55,7 +55,7 @@ router.post('/my-secrets/add', auth,async (req, res) => {
         return res.status(400).send({message:"Title and text are required!"});
     }
     const newSecret= await Secret.create({UserId:req.user.id,title: title, text: text});
-    finalResponse(newSecret,req,res);
+    finalResponse({ud:newSecret.id,title: title, text: text},req,res);
 });
 router.put('/my-secrets/share/:id', auth,async (req, res) => {
     const {id}=req.params;

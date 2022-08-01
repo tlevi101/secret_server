@@ -68,7 +68,7 @@ Routs:
       - title, text
       - You can't send viewLimit and expiration date (TTL) here!
     - respond:
-      - With the created secret
+      - With the created secret's id, title, and text
     - errors:
       - code 401:
         - Unauthorized error
