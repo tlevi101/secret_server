@@ -1,9 +1,21 @@
 # secret_server
-
-http://picturesque-zealous-gymnast.glitch.me/
+Server url:
+https://octagonal-chip-click.glitch.me
 
 Routs:
-  - /register 
+  - /register
+    - request body:
+      - username
+        -required, unique
+      - email
+        -required, unique, eamil foramt
+      - password
+        - required
+      - passwordAgain
+        - required, must match with password
+    - resbond:
+      - jwt webtokem
+        - includes every data from user except password
   - /login
   - /my-secrets (authrequired)
   - /my-secrets/add (authrequired)
