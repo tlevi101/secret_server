@@ -1,12 +1,5 @@
-<style>
-  .orange{
-    color:DarkOrange;
-  }
-  .blue{
-    color:DarkBlue;
-  }
-</style>
-#<div class="orange">Secret_server</div>
+
+# Secret_server
 Server url:
 https://octagonal-chip-click.glitch.me
 
