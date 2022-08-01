@@ -57,7 +57,6 @@ module.exports = (sequelize, DataTypes) => {
             else{
               secret.title = cryptr.decrypt(secret.title);
               secret.text = cryptr.decrypt(secret.text);
-              secret.url = cryptr.decrypt(secret.url);
             }
           }
         },
